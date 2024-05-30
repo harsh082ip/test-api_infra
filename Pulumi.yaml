@@ -1,0 +1,7 @@
+name: test-api_infra
+runtime: go
+description: Iaac to delpoy to staging/production in aws
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-go
